@@ -52,21 +52,23 @@ Make sure you have the following installed:
 ### **1. User Registration**
 - **Endpoint:** `POST /register`
 - **Description:** Registers a new user.
-
+![Image](https://github.com/user-attachments/assets/43714405-bd40-4fc0-8173-be404b7ef25f)
 
 ### **2. User Login**
 - **Endpoint:** `POST /login`
 - **Description:** Authenticates a user and returns a JWT.
+![Image](https://github.com/user-attachments/assets/d77eea0f-649e-4ff9-a8fa-fed4c721b258)
 
 
 ### **3. View Profile (Authenticated)**
 - **Endpoint:** `GET /my-profile`
 - **Description:** Fetches the logged-in user’s details.
-
+![Image](https://github.com/user-attachments/assets/c63066ce-6509-43e4-9202-0d09fc653023)
 
 ### **4. Retrieve Rental Cars**
 - **Endpoint:** `GET /rental-cars`
 - **Description:** Returns a list of available cars sorted by price.
+![Image](https://github.com/user-attachments/assets/716af6c6-222b-42de-89cd-9181eabfe7d1)
 - **Optional Query Params:**
   - `year`
   - `color`
@@ -76,4 +78,5 @@ Make sure you have the following installed:
   ```sh
   GET /ental-cars?year=2018&steering_type=manual
   ```
+  ![Image](https://github.com/user-attachments/assets/997277ee-96a9-4d9d-ba07-42ac9b4f1f9c)
 
