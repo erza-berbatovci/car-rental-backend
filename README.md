@@ -85,6 +85,7 @@ Make sure you have the following installed:
 The database `carRental` contains two collections:
 - **users**: Stores user information.
 - **cars**: Stores rental car details.
+  ![Image](https://github.com/user-attachments/assets/e047da47-bf86-4357-96d1-e7a7acb1434e)
 
 ## Authentication
 JWT is used for authentication. The token must be sent in the `Authorization` header for protected endpoints:
