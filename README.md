@@ -80,3 +80,14 @@ Make sure you have the following installed:
   ```
   ![Image](https://github.com/user-attachments/assets/997277ee-96a9-4d9d-ba07-42ac9b4f1f9c)
 
+## Database Structure
+
+The database `carRental` contains two collections:
+- **users**: Stores user information.
+- **cars**: Stores rental car details.
+
+## Authentication
+JWT is used for authentication. The token must be sent in the `Authorization` header for protected endpoints:
+```
+Authorization: Bearer your_jwt_token
+```
